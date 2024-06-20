@@ -1,6 +1,6 @@
 
-test1  = [0,1,2]
+test1  = [0,1,]
 test2  = [2,1,0]
 
-test1, test2 = test2, test1
+print(len(test1)<3)
 print(test1, test2)
