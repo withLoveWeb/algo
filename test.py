@@ -1,1 +1,6 @@
-print(len([[1,2],[1],[2]]))
+import os
+
+
+_ = os.path.split('/home/luciano/.ssh/id_rsa.pub')
+
+print(_)
